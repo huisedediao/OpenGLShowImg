@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1DD68D2218187A20059D47B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD68D1218187A20059D47B /* AppDelegate.m */; };
+		F1DD68D5218187A20059D47B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD68D4218187A20059D47B /* ViewController.m */; };
+		F1DD68D8218187A20059D47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD68D6218187A20059D47B /* Main.storyboard */; };
+		F1DD68DA218187A30059D47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DD68D9218187A30059D47B /* Assets.xcassets */; };
+		F1DD68DD218187A30059D47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD68DB218187A30059D47B /* LaunchScreen.storyboard */; };
+		F1DD68E0218187A30059D47B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD68DF218187A30059D47B /* main.m */; };
+		F1DD68EA218187A30059D47B /* OpenGLShowImgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD68E9218187A30059D47B /* OpenGLShowImgTests.m */; };
+		F1DD68F5218187A30059D47B /* OpenGLShowImgUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD68F4218187A30059D47B /* OpenGLShowImgUITests.m */; };
+		F1DD693F218188260059D47B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6903218188250059D47B /* 1.png */; };
+		F1DD6940218188260059D47B /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6905218188250059D47B /* GLESUtils.m */; };
+		F1DD6941218188260059D47B /* ImageDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6906218188250059D47B /* ImageDecoder.mm */; };
+		F1DD6942218188260059D47B /* FragmentShader_img.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F1DD690A218188250059D47B /* FragmentShader_img.glsl */; };
+		F1DD6943218188260059D47B /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F1DD690B218188250059D47B /* FragmentShader.glsl */; };
+		F1DD6944218188260059D47B /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F1DD690C218188250059D47B /* VertexShader.glsl */; };
+		F1DD6945218188260059D47B /* VertexShader_img.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F1DD690D218188260059D47B /* VertexShader_img.glsl */; };
+		F1DD6946218188260059D47B /* libpng-config.in in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6910218188260059D47B /* libpng-config.in */; };
+		F1DD6947218188260059D47B /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6911218188260059D47B /* pngrio.c */; };
+		F1DD6948218188260059D47B /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6912218188260059D47B /* pngerror.c */; };
+		F1DD6949218188260059D47B /* INSTALL in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6913218188260059D47B /* INSTALL */; };
+		F1DD694A218188260059D47B /* ANNOUNCE in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6914218188260059D47B /* ANNOUNCE */; };
+		F1DD694B218188260059D47B /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6915218188260059D47B /* CMakeLists.txt */; };
+		F1DD694C218188260059D47B /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6916218188260059D47B /* pngwio.c */; };
+		F1DD694D218188260059D47B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6918218188260059D47B /* LICENSE */; };
+		F1DD694E218188260059D47B /* libpng.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6919218188260059D47B /* libpng.pc.in */; };
+		F1DD694F218188260059D47B /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD691A218188260059D47B /* pngtrans.c */; };
+		F1DD6950218188260059D47B /* configure in Resources */ = {isa = PBXBuildFile; fileRef = F1DD691B218188260059D47B /* configure */; };
+		F1DD6951218188260059D47B /* pngnow.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DD691D218188260059D47B /* pngnow.png */; };
+		F1DD6952218188260059D47B /* CHANGES in Resources */ = {isa = PBXBuildFile; fileRef = F1DD691E218188260059D47B /* CHANGES */; };
+		F1DD6953218188260059D47B /* pngbar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1DD691F218188260059D47B /* pngbar.jpg */; };
+		F1DD6954218188260059D47B /* pngbar.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6920218188260059D47B /* pngbar.png */; };
+		F1DD6955218188260059D47B /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6921218188260059D47B /* pngwrite.c */; };
+		F1DD6956218188260059D47B /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6923218188260059D47B /* image.c */; };
+		F1DD6957218188260059D47B /* README in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6924218188260059D47B /* README */; };
+		F1DD6958218188260059D47B /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6925218188260059D47B /* pngwutil.c */; };
+		F1DD6959218188260059D47B /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6926218188260059D47B /* TODO */; };
+		F1DD695A218188260059D47B /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6927218188260059D47B /* pngwtran.c */; };
+		F1DD695B218188260059D47B /* example.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6928218188260059D47B /* example.c */; };
+		F1DD695C218188260059D47B /* png_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DD692A218188260059D47B /* png_decoder.cpp */; };
+		F1DD695D218188260059D47B /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD692C218188260059D47B /* pngpread.c */; };
+		F1DD695E218188260059D47B /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD692E218188260059D47B /* pngread.c */; };
+		F1DD695F218188260059D47B /* libpng.3 in Resources */ = {isa = PBXBuildFile; fileRef = F1DD692F218188260059D47B /* libpng.3 */; };
+		F1DD6960218188260059D47B /* libpngpf.3 in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6930218188260059D47B /* libpngpf.3 */; };
+		F1DD6961218188260059D47B /* pngtest.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6931218188260059D47B /* pngtest.png */; };
+		F1DD6962218188260059D47B /* pngmem.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6932218188260059D47B /* pngmem.c */; };
+		F1DD6963218188260059D47B /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6933218188260059D47B /* pngget.c */; };
+		F1DD6964218188260059D47B /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6935218188260059D47B /* png.c */; };
+		F1DD6965218188260059D47B /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6936218188260059D47B /* pngrtran.c */; };
+		F1DD6966218188260059D47B /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD6937218188260059D47B /* pngrutil.c */; };
+		F1DD6967218188260059D47B /* libpng-manual.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1DD6938218188260059D47B /* libpng-manual.txt */; };
+		F1DD6968218188260059D47B /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DD693A218188260059D47B /* pngset.c */; };
+		F1DD6969218188260059D47B /* png.5 in Resources */ = {isa = PBXBuildFile; fileRef = F1DD693B218188260059D47B /* png.5 */; };
+		F1DD696A218188260059D47B /* OpenGLView_img.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1DD693E218188260059D47B /* OpenGLView_img.mm */; };
+		F1DD696D2181882F0059D47B /* rgba_frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DD696B2181882F0059D47B /* rgba_frame.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1DD68E6218187A30059D47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1DD68C5218187A20059D47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DD68CC218187A20059D47B;
+			remoteInfo = OpenGLShowImg;
+		};
+		F1DD68F1218187A30059D47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1DD68C5218187A20059D47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DD68CC218187A20059D47B;
+			remoteInfo = OpenGLShowImg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1DD68CD218187A20059D47B /* OpenGLShowImg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLShowImg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD68D0218187A20059D47B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1DD68D1218187A20059D47B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1DD68D3218187A20059D47B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1DD68D4218187A20059D47B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1DD68D7218187A20059D47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1DD68D9218187A30059D47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1DD68DC218187A30059D47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1DD68DE218187A30059D47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD68DF218187A30059D47B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1DD68E5218187A30059D47B /* OpenGLShowImgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLShowImgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD68E9218187A30059D47B /* OpenGLShowImgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLShowImgTests.m; sourceTree = "<group>"; };
+		F1DD68EB218187A30059D47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD68F0218187A30059D47B /* OpenGLShowImgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLShowImgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD68F4218187A30059D47B /* OpenGLShowImgUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLShowImgUITests.m; sourceTree = "<group>"; };
+		F1DD68F6218187A30059D47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD6903218188250059D47B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F1DD6905218188250059D47B /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		F1DD6906218188250059D47B /* ImageDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageDecoder.mm; sourceTree = "<group>"; };
+		F1DD6907218188250059D47B /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		F1DD6908218188250059D47B /* ImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDecoder.h; sourceTree = "<group>"; };
+		F1DD690A218188250059D47B /* FragmentShader_img.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentShader_img.glsl; sourceTree = "<group>"; };
+		F1DD690B218188250059D47B /* FragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
+		F1DD690C218188250059D47B /* VertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
+		F1DD690D218188260059D47B /* VertexShader_img.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexShader_img.glsl; sourceTree = "<group>"; };
+		F1DD690F218188260059D47B /* pnginfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnginfo.h; sourceTree = "<group>"; };
+		F1DD6910218188260059D47B /* libpng-config.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "libpng-config.in"; sourceTree = "<group>"; };
+		F1DD6911218188260059D47B /* pngrio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrio.c; sourceTree = "<group>"; };
+		F1DD6912218188260059D47B /* pngerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngerror.c; sourceTree = "<group>"; };
+		F1DD6913218188260059D47B /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		F1DD6914218188260059D47B /* ANNOUNCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ANNOUNCE; sourceTree = "<group>"; };
+		F1DD6915218188260059D47B /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		F1DD6916218188260059D47B /* pngwio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwio.c; sourceTree = "<group>"; };
+		F1DD6917218188260059D47B /* pngstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngstruct.h; sourceTree = "<group>"; };
+		F1DD6918218188260059D47B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F1DD6919218188260059D47B /* libpng.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libpng.pc.in; sourceTree = "<group>"; };
+		F1DD691A218188260059D47B /* pngtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngtrans.c; sourceTree = "<group>"; };
+		F1DD691B218188260059D47B /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure; sourceTree = "<group>"; };
+		F1DD691C218188260059D47B /* pngpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngpriv.h; sourceTree = "<group>"; };
+		F1DD691D218188260059D47B /* pngnow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngnow.png; sourceTree = "<group>"; };
+		F1DD691E218188260059D47B /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		F1DD691F218188260059D47B /* pngbar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pngbar.jpg; sourceTree = "<group>"; };
+		F1DD6920218188260059D47B /* pngbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngbar.png; sourceTree = "<group>"; };
+		F1DD6921218188260059D47B /* pngwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwrite.c; sourceTree = "<group>"; };
+		F1DD6922218188260059D47B /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		F1DD6923218188260059D47B /* image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image.c; sourceTree = "<group>"; };
+		F1DD6924218188260059D47B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F1DD6925218188260059D47B /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwutil.c; sourceTree = "<group>"; };
+		F1DD6926218188260059D47B /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		F1DD6927218188260059D47B /* pngwtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwtran.c; sourceTree = "<group>"; };
+		F1DD6928218188260059D47B /* example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example.c; sourceTree = "<group>"; };
+		F1DD6929218188260059D47B /* pnglibconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnglibconf.h; sourceTree = "<group>"; };
+		F1DD692A218188260059D47B /* png_decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = png_decoder.cpp; sourceTree = "<group>"; };
+		F1DD692B218188260059D47B /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		F1DD692C218188260059D47B /* pngpread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngpread.c; sourceTree = "<group>"; };
+		F1DD692D218188260059D47B /* pngdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngdebug.h; sourceTree = "<group>"; };
+		F1DD692E218188260059D47B /* pngread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngread.c; sourceTree = "<group>"; };
+		F1DD692F218188260059D47B /* libpng.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libpng.3; sourceTree = "<group>"; };
+		F1DD6930218188260059D47B /* libpngpf.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libpngpf.3; sourceTree = "<group>"; };
+		F1DD6931218188260059D47B /* pngtest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngtest.png; sourceTree = "<group>"; };
+		F1DD6932218188260059D47B /* pngmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngmem.c; sourceTree = "<group>"; };
+		F1DD6933218188260059D47B /* pngget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngget.c; sourceTree = "<group>"; };
+		F1DD6934218188260059D47B /* png_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png_decoder.h; sourceTree = "<group>"; };
+		F1DD6935218188260059D47B /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = png.c; sourceTree = "<group>"; };
+		F1DD6936218188260059D47B /* pngrtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrtran.c; sourceTree = "<group>"; };
+		F1DD6937218188260059D47B /* pngrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrutil.c; sourceTree = "<group>"; };
+		F1DD6938218188260059D47B /* libpng-manual.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libpng-manual.txt"; sourceTree = "<group>"; };
+		F1DD6939218188260059D47B /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		F1DD693A218188260059D47B /* pngset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngset.c; sourceTree = "<group>"; };
+		F1DD693B218188260059D47B /* png.5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = png.5; sourceTree = "<group>"; };
+		F1DD693D218188260059D47B /* OpenGLView_img.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView_img.h; sourceTree = "<group>"; };
+		F1DD693E218188260059D47B /* OpenGLView_img.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLView_img.mm; sourceTree = "<group>"; };
+		F1DD696B2181882F0059D47B /* rgba_frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rgba_frame.cpp; sourceTree = "<group>"; };
+		F1DD696C2181882F0059D47B /* rgba_frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rgba_frame.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1DD68CA218187A20059D47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD68E2218187A30059D47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD68ED218187A30059D47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1DD68C4218187A20059D47B = {
+			isa = PBXGroup;
+			children = (
+				F1DD68CF218187A20059D47B /* OpenGLShowImg */,
+				F1DD68E8218187A30059D47B /* OpenGLShowImgTests */,
+				F1DD68F3218187A30059D47B /* OpenGLShowImgUITests */,
+				F1DD68CE218187A20059D47B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1DD68CE218187A20059D47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD68CD218187A20059D47B /* OpenGLShowImg.app */,
+				F1DD68E5218187A30059D47B /* OpenGLShowImgTests.xctest */,
+				F1DD68F0218187A30059D47B /* OpenGLShowImgUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1DD68CF218187A20059D47B /* OpenGLShowImg */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD690E218188260059D47B /* libpng */,
+				F1DD693C218188260059D47B /* OpenGLView */,
+				F1DD6902218188250059D47B /* Resource */,
+				F1DD6909218188250059D47B /* ScriptFiles */,
+				F1DD6904218188250059D47B /* Utils */,
+				F1DD68D0218187A20059D47B /* AppDelegate.h */,
+				F1DD68D1218187A20059D47B /* AppDelegate.m */,
+				F1DD68D3218187A20059D47B /* ViewController.h */,
+				F1DD68D4218187A20059D47B /* ViewController.m */,
+				F1DD68D6218187A20059D47B /* Main.storyboard */,
+				F1DD68D9218187A30059D47B /* Assets.xcassets */,
+				F1DD68DB218187A30059D47B /* LaunchScreen.storyboard */,
+				F1DD68DE218187A30059D47B /* Info.plist */,
+				F1DD68DF218187A30059D47B /* main.m */,
+			);
+			path = OpenGLShowImg;
+			sourceTree = "<group>";
+		};
+		F1DD68E8218187A30059D47B /* OpenGLShowImgTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD68E9218187A30059D47B /* OpenGLShowImgTests.m */,
+				F1DD68EB218187A30059D47B /* Info.plist */,
+			);
+			path = OpenGLShowImgTests;
+			sourceTree = "<group>";
+		};
+		F1DD68F3218187A30059D47B /* OpenGLShowImgUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD68F4218187A30059D47B /* OpenGLShowImgUITests.m */,
+				F1DD68F6218187A30059D47B /* Info.plist */,
+			);
+			path = OpenGLShowImgUITests;
+			sourceTree = "<group>";
+		};
+		F1DD6902218188250059D47B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD6903218188250059D47B /* 1.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F1DD6904218188250059D47B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD696B2181882F0059D47B /* rgba_frame.cpp */,
+				F1DD696C2181882F0059D47B /* rgba_frame.h */,
+				F1DD6907218188250059D47B /* GLESUtils.h */,
+				F1DD6905218188250059D47B /* GLESUtils.m */,
+				F1DD6908218188250059D47B /* ImageDecoder.h */,
+				F1DD6906218188250059D47B /* ImageDecoder.mm */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F1DD6909218188250059D47B /* ScriptFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD690A218188250059D47B /* FragmentShader_img.glsl */,
+				F1DD690B218188250059D47B /* FragmentShader.glsl */,
+				F1DD690C218188250059D47B /* VertexShader.glsl */,
+				F1DD690D218188260059D47B /* VertexShader_img.glsl */,
+			);
+			path = ScriptFiles;
+			sourceTree = "<group>";
+		};
+		F1DD690E218188260059D47B /* libpng */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD690F218188260059D47B /* pnginfo.h */,
+				F1DD6910218188260059D47B /* libpng-config.in */,
+				F1DD6911218188260059D47B /* pngrio.c */,
+				F1DD6912218188260059D47B /* pngerror.c */,
+				F1DD6913218188260059D47B /* INSTALL */,
+				F1DD6914218188260059D47B /* ANNOUNCE */,
+				F1DD6915218188260059D47B /* CMakeLists.txt */,
+				F1DD6916218188260059D47B /* pngwio.c */,
+				F1DD6917218188260059D47B /* pngstruct.h */,
+				F1DD6918218188260059D47B /* LICENSE */,
+				F1DD6919218188260059D47B /* libpng.pc.in */,
+				F1DD691A218188260059D47B /* pngtrans.c */,
+				F1DD691B218188260059D47B /* configure */,
+				F1DD691C218188260059D47B /* pngpriv.h */,
+				F1DD691D218188260059D47B /* pngnow.png */,
+				F1DD691E218188260059D47B /* CHANGES */,
+				F1DD691F218188260059D47B /* pngbar.jpg */,
+				F1DD6920218188260059D47B /* pngbar.png */,
+				F1DD6921218188260059D47B /* pngwrite.c */,
+				F1DD6922218188260059D47B /* png.h */,
+				F1DD6923218188260059D47B /* image.c */,
+				F1DD6924218188260059D47B /* README */,
+				F1DD6925218188260059D47B /* pngwutil.c */,
+				F1DD6926218188260059D47B /* TODO */,
+				F1DD6927218188260059D47B /* pngwtran.c */,
+				F1DD6928218188260059D47B /* example.c */,
+				F1DD6929218188260059D47B /* pnglibconf.h */,
+				F1DD692A218188260059D47B /* png_decoder.cpp */,
+				F1DD692B218188260059D47B /* pngconf.h */,
+				F1DD692C218188260059D47B /* pngpread.c */,
+				F1DD692D218188260059D47B /* pngdebug.h */,
+				F1DD692E218188260059D47B /* pngread.c */,
+				F1DD692F218188260059D47B /* libpng.3 */,
+				F1DD6930218188260059D47B /* libpngpf.3 */,
+				F1DD6931218188260059D47B /* pngtest.png */,
+				F1DD6932218188260059D47B /* pngmem.c */,
+				F1DD6933218188260059D47B /* pngget.c */,
+				F1DD6934218188260059D47B /* png_decoder.h */,
+				F1DD6935218188260059D47B /* png.c */,
+				F1DD6936218188260059D47B /* pngrtran.c */,
+				F1DD6937218188260059D47B /* pngrutil.c */,
+				F1DD6938218188260059D47B /* libpng-manual.txt */,
+				F1DD6939218188260059D47B /* image.h */,
+				F1DD693A218188260059D47B /* pngset.c */,
+				F1DD693B218188260059D47B /* png.5 */,
+			);
+			path = libpng;
+			sourceTree = "<group>";
+		};
+		F1DD693C218188260059D47B /* OpenGLView */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD693D218188260059D47B /* OpenGLView_img.h */,
+				F1DD693E218188260059D47B /* OpenGLView_img.mm */,
+			);
+			path = OpenGLView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1DD68CC218187A20059D47B /* OpenGLShowImg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD68F9218187A30059D47B /* Build configuration list for PBXNativeTarget "OpenGLShowImg" */;
+			buildPhases = (
+				F1DD68C9218187A20059D47B /* Sources */,
+				F1DD68CA218187A20059D47B /* Frameworks */,
+				F1DD68CB218187A20059D47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLShowImg;
+			productName = OpenGLShowImg;
+			productReference = F1DD68CD218187A20059D47B /* OpenGLShowImg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1DD68E4218187A30059D47B /* OpenGLShowImgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD68FC218187A30059D47B /* Build configuration list for PBXNativeTarget "OpenGLShowImgTests" */;
+			buildPhases = (
+				F1DD68E1218187A30059D47B /* Sources */,
+				F1DD68E2218187A30059D47B /* Frameworks */,
+				F1DD68E3218187A30059D47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1DD68E7218187A30059D47B /* PBXTargetDependency */,
+			);
+			name = OpenGLShowImgTests;
+			productName = OpenGLShowImgTests;
+			productReference = F1DD68E5218187A30059D47B /* OpenGLShowImgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1DD68EF218187A30059D47B /* OpenGLShowImgUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD68FF218187A30059D47B /* Build configuration list for PBXNativeTarget "OpenGLShowImgUITests" */;
+			buildPhases = (
+				F1DD68EC218187A30059D47B /* Sources */,
+				F1DD68ED218187A30059D47B /* Frameworks */,
+				F1DD68EE218187A30059D47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1DD68F2218187A30059D47B /* PBXTargetDependency */,
+			);
+			name = OpenGLShowImgUITests;
+			productName = OpenGLShowImgUITests;
+			productReference = F1DD68F0218187A30059D47B /* OpenGLShowImgUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DD68C5218187A20059D47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = xxb;
+				TargetAttributes = {
+					F1DD68CC218187A20059D47B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F1DD68E4218187A30059D47B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F1DD68CC218187A20059D47B;
+					};
+					F1DD68EF218187A30059D47B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F1DD68CC218187A20059D47B;
+					};
+				};
+			};
+			buildConfigurationList = F1DD68C8218187A20059D47B /* Build configuration list for PBXProject "OpenGLShowImg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1DD68C4218187A20059D47B;
+			productRefGroup = F1DD68CE218187A20059D47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1DD68CC218187A20059D47B /* OpenGLShowImg */,
+				F1DD68E4218187A30059D47B /* OpenGLShowImgTests */,
+				F1DD68EF218187A30059D47B /* OpenGLShowImgUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1DD68CB218187A20059D47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD6957218188260059D47B /* README in Resources */,
+				F1DD695F218188260059D47B /* libpng.3 in Resources */,
+				F1DD6944218188260059D47B /* VertexShader.glsl in Resources */,
+				F1DD6946218188260059D47B /* libpng-config.in in Resources */,
+				F1DD6954218188260059D47B /* pngbar.png in Resources */,
+				F1DD694E218188260059D47B /* libpng.pc.in in Resources */,
+				F1DD694D218188260059D47B /* LICENSE in Resources */,
+				F1DD6969218188260059D47B /* png.5 in Resources */,
+				F1DD6960218188260059D47B /* libpngpf.3 in Resources */,
+				F1DD68DD218187A30059D47B /* LaunchScreen.storyboard in Resources */,
+				F1DD694A218188260059D47B /* ANNOUNCE in Resources */,
+				F1DD6951218188260059D47B /* pngnow.png in Resources */,
+				F1DD6961218188260059D47B /* pngtest.png in Resources */,
+				F1DD6950218188260059D47B /* configure in Resources */,
+				F1DD693F218188260059D47B /* 1.png in Resources */,
+				F1DD6967218188260059D47B /* libpng-manual.txt in Resources */,
+				F1DD6953218188260059D47B /* pngbar.jpg in Resources */,
+				F1DD6949218188260059D47B /* INSTALL in Resources */,
+				F1DD68DA218187A30059D47B /* Assets.xcassets in Resources */,
+				F1DD6952218188260059D47B /* CHANGES in Resources */,
+				F1DD68D8218187A20059D47B /* Main.storyboard in Resources */,
+				F1DD694B218188260059D47B /* CMakeLists.txt in Resources */,
+				F1DD6943218188260059D47B /* FragmentShader.glsl in Resources */,
+				F1DD6959218188260059D47B /* TODO in Resources */,
+				F1DD6945218188260059D47B /* VertexShader_img.glsl in Resources */,
+				F1DD6942218188260059D47B /* FragmentShader_img.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD68E3218187A30059D47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD68EE218187A30059D47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1DD68C9218187A20059D47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD694F218188260059D47B /* pngtrans.c in Sources */,
+				F1DD6958218188260059D47B /* pngwutil.c in Sources */,
+				F1DD6966218188260059D47B /* pngrutil.c in Sources */,
+				F1DD68D5218187A20059D47B /* ViewController.m in Sources */,
+				F1DD68E0218187A30059D47B /* main.m in Sources */,
+				F1DD6968218188260059D47B /* pngset.c in Sources */,
+				F1DD695A218188260059D47B /* pngwtran.c in Sources */,
+				F1DD6955218188260059D47B /* pngwrite.c in Sources */,
+				F1DD695B218188260059D47B /* example.c in Sources */,
+				F1DD6948218188260059D47B /* pngerror.c in Sources */,
+				F1DD6947218188260059D47B /* pngrio.c in Sources */,
+				F1DD6962218188260059D47B /* pngmem.c in Sources */,
+				F1DD6965218188260059D47B /* pngrtran.c in Sources */,
+				F1DD696A218188260059D47B /* OpenGLView_img.mm in Sources */,
+				F1DD6941218188260059D47B /* ImageDecoder.mm in Sources */,
+				F1DD6963218188260059D47B /* pngget.c in Sources */,
+				F1DD694C218188260059D47B /* pngwio.c in Sources */,
+				F1DD6940218188260059D47B /* GLESUtils.m in Sources */,
+				F1DD696D2181882F0059D47B /* rgba_frame.cpp in Sources */,
+				F1DD695D218188260059D47B /* pngpread.c in Sources */,
+				F1DD6964218188260059D47B /* png.c in Sources */,
+				F1DD6956218188260059D47B /* image.c in Sources */,
+				F1DD695E218188260059D47B /* pngread.c in Sources */,
+				F1DD695C218188260059D47B /* png_decoder.cpp in Sources */,
+				F1DD68D2218187A20059D47B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD68E1218187A30059D47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD68EA218187A30059D47B /* OpenGLShowImgTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD68EC218187A30059D47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD68F5218187A30059D47B /* OpenGLShowImgUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1DD68E7218187A30059D47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1DD68CC218187A20059D47B /* OpenGLShowImg */;
+			targetProxy = F1DD68E6218187A30059D47B /* PBXContainerItemProxy */;
+		};
+		F1DD68F2218187A30059D47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1DD68CC218187A20059D47B /* OpenGLShowImg */;
+			targetProxy = F1DD68F1218187A30059D47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1DD68D6218187A20059D47B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DD68D7218187A20059D47B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1DD68DB218187A30059D47B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DD68DC218187A30059D47B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1DD68F7218187A30059D47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1DD68F8218187A30059D47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1DD68FA218187A30059D47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RC2BP8QGY9;
+				INFOPLIST_FILE = OpenGLShowImg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxb.study;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1DD68FB218187A30059D47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RC2BP8QGY9;
+				INFOPLIST_FILE = OpenGLShowImg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxb.study;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1DD68FD218187A30059D47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenGLShowImgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.OpenGLShowImgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLShowImg.app/OpenGLShowImg";
+			};
+			name = Debug;
+		};
+		F1DD68FE218187A30059D47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenGLShowImgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.OpenGLShowImgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLShowImg.app/OpenGLShowImg";
+			};
+			name = Release;
+		};
+		F1DD6900218187A30059D47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenGLShowImgUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.OpenGLShowImgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenGLShowImg;
+			};
+			name = Debug;
+		};
+		F1DD6901218187A30059D47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenGLShowImgUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.OpenGLShowImgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenGLShowImg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1DD68C8218187A20059D47B /* Build configuration list for PBXProject "OpenGLShowImg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD68F7218187A30059D47B /* Debug */,
+				F1DD68F8218187A30059D47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DD68F9218187A30059D47B /* Build configuration list for PBXNativeTarget "OpenGLShowImg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD68FA218187A30059D47B /* Debug */,
+				F1DD68FB218187A30059D47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DD68FC218187A30059D47B /* Build configuration list for PBXNativeTarget "OpenGLShowImgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD68FD218187A30059D47B /* Debug */,
+				F1DD68FE218187A30059D47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DD68FF218187A30059D47B /* Build configuration list for PBXNativeTarget "OpenGLShowImgUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD6900218187A30059D47B /* Debug */,
+				F1DD6901218187A30059D47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1DD68C5218187A20059D47B /* Project object */;
+}
