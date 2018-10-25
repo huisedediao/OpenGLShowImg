@@ -241,11 +241,11 @@ exit:
     //将RGBA的数据放到上面创建的纹理对象上，这里最有一个参数传递是uint8_t数组类型的pixels，这里还没有渲染，传0
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, (GLsizei)_frame->width, (GLsizei)_frame->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, 0);
     
-    
+    //解绑纹理
     glBindTexture(GL_TEXTURE_2D, 0);
 }
 
-- (void) render;
+- (void)render;
 {
     if(_stopping){
         return;
